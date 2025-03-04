@@ -22,4 +22,4 @@ def home(request):
     ]})
     
 def about(request):
-    return render(request, './first_app/about.html')
+    return render(request, './first_app/about.html', {'author': 'glenn Maxwell'})
